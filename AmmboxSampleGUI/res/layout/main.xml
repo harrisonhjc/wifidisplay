@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/miralayout"
+					android:layout_width="680px"
+				    android:layout_height="match_parent" >
+
+				    <TextureView
+			            android:id="@+id/mira_textureview"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content" />
+	</LinearLayout>	
+	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:layout_width="120px"
+				    android:layout_height="match_parent"
+				    android:gravity="center"
+				    android:orientation="vertical"
+				    android:background="#ff010519"
+				    android:layout_toRightOf="@+id/miralayout" >
+	
+		<TextView
+			android:id="@+id/status"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="textMultiLine"
+			android:lines="6"
+			android:gravity="bottom" />	
+		
+	        
+	    <Button
+	        android:id="@+id/volumeup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6px"
+	        android:textColor="#ffe6c4"
+	        android:background="@drawable/bandbutton"
+	        android:text="@string/volumeup" />
+	    <Button
+	        android:id="@+id/volumedown"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6px"
+	        android:textColor="#ffe6c4"
+	        android:background="@drawable/bandbutton"
+	        android:text="@string/volumedown" />
+	    <Button
+	        android:id="@+id/audioswitch"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6px"
+	        android:textColor="#ffe6c4"
+	        android:background="@drawable/bandbutton"
+	        android:text="@string/audioswitch" />
+	    <Button
+	        android:id="@+id/home"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6px"
+	        android:textColor="#ffe6c4"
+	        android:background="@drawable/bandbutton"
+	        android:text="@string/home" />
+	    <Button
+	        android:id="@+id/back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6px"
+	        android:textColor="#ffe6c4"
+	        android:background="@drawable/bandbutton"
+	        android:text="@string/back" />    
+	    <Button
+	        android:id="@+id/exit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6px"
+	        android:textColor="#ffe6c4"
+	        android:background="@drawable/bandbutton"
+	        android:text="@string/exit" />
+	</LinearLayout>
+	
+</RelativeLayout>

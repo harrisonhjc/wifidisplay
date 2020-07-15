@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AmmboxSampleGUI</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="audioswitch">AudioSwitch</string>
+    <string name="exit">Exit</string>
+    <string name="volumeup">Volume Up</string>
+    <string name="volumedown">Volume Down</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+</resources>
